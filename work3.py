@@ -6,3 +6,4 @@ while i < len(list1):
     i = i + 1
     print(list2)
 print(list1)
+
