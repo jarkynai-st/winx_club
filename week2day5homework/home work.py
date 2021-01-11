@@ -31,7 +31,7 @@ def write_to(filename,product):
     file1.write(product +'\n')
 
 for line in product_list:
-    write_to('catalogue.txt',line)
+    write_to('catalogue.txt', line)
 
 file2 = open('catalogue.txt')
 product_file = file2.readlines()
@@ -40,9 +40,9 @@ print(product_file)
 def sort():
     for product in product_list:
         if 'iphone' in product or 'samsung' in product or 'nokia' in product:
-            write_to('phones.txt',product)
+            write_to('phones.txt', product)
         elif 'boots' in product or 'coat' in product or 'dress' in product:
-            write_to('boots.txt',product)
+            write_to('boots.txt', product)
 
 sort()
 
