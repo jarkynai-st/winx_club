@@ -13,3 +13,8 @@ iphone Y
 samsung galaxy 2
 nokia3
 nokia999
+iphone X
+iphone Y
+samsung galaxy 2
+nokia3
+nokia999

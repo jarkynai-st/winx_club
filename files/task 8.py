@@ -19,7 +19,7 @@ list1 = [1,2,3,4,5]
 # print(set(list1))
 
 
-file1 = open('cars.txt')
+file1 = open('phones.txt')
 list1 = file1.readlines()
 i = 0
 while i < len(list1):
